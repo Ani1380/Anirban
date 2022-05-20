@@ -577,6 +577,9 @@ b, strong {
   }
 }
 
+.loader-wrapper{
+  display: none;
+}
 .load-wrapper{
   position: absolute;
   top: 0;
