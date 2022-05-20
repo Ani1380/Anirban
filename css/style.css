@@ -595,9 +595,9 @@ b, strong {
 #load {
   position:absolute;
   width:600px;
-  height:36px;
+  height: 100%;
   left:50%;
-  top:40%;
+  top:50%;
   margin-left:-300px;
   overflow:visible;
   -webkit-user-select:none;
@@ -659,6 +659,24 @@ b, strong {
   -o-animation-delay:1.2s;
   -moz-animation-delay:1.2s;
   -webkit-animation-delay:1.2s;
+}
+#load div:nth-child(8) {
+  animation-delay:1.4s;
+  -o-animation-delay:1.4s;
+  -moz-animation-delay:1.4s;
+  -webkit-animation-delay:1.4s;
+}
+#load div:nth-child(9) {
+  animation-delay:1.6s;
+  -o-animation-delay:1.6s;
+  -moz-animation-delay:1.6s;
+  -webkit-animation-delay:1.6s;
+}
+#load div:nth-child(10) {
+  animation-delay:1.8s;
+  -o-animation-delay:1.8s;
+  -moz-animation-delay:1.8s;
+  -webkit-animation-delay:1.8s;
 }
 
 @keyframes move {
