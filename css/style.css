@@ -28,7 +28,7 @@ body {
 }
 
 .full-screen {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 .small-text {
@@ -38,6 +38,27 @@ body {
   padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
+}
+
+.about-image {
+  margin-top: 4em;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.background-svg{
+  position: relative;
+  top: 0;
+  left: 0;
+  /* height: 50rem;
+  width: 50rem; */
+}
+
+.foreground-image{
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
 ul {
@@ -490,6 +511,23 @@ b, strong {
 
   .about-image {
     margin-top: 4em;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .background-svg{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .foreground-image{
+    position: absolute;
+    top: 50px;
+    left: 30px;
   }
 
   .mobile-mt-2,
